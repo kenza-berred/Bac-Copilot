@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.env
+
+# Data: course PDFs are copyrighted (bac-done.com) — never commit them
+data/raw/
+data/processed/
+data/chroma/
+data/*.sqlite
+evaluation/results/*.json
+!evaluation/results/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
